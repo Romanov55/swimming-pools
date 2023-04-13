@@ -55,6 +55,14 @@
   left: 50%;
 }
 
+.arrow-left2 {
+  left: -6%;
+}
+
+.arrow-right2 {
+  left: 91%;
+}
+
 .bg-kick {
   background-color: rgb(255, 255, 255);
 }
