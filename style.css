@@ -1,3 +1,38 @@
+.btn-custom {
+  background-color: transparent;
+  border: none;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 8px 0;
+}
+
+.btn-red {
+  background-image: url('src/img/Фигура2.png');
+}
+
+.btn-red:hover {
+  background-image: url('src/img/Фигура1.png');
+}
+
+.btn-blue {
+  background-image: url('src/img/Фигура1.png');
+}
+
+.btn-blue:hover {
+  background-image: url('src/img/Фигура2.png');
+}
+
+
+.btn-custom:hover {
+  border: none;
+}
+
+.btn-custom:focus {
+  outline: none;
+}
+
 .bg {
   z-index: -1;
 }
