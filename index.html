@@ -9,8 +9,8 @@
   </head>
   <body>
     <div class="part-1 position-relative">
-      <img class="bg bg-800 w-100" src="src/img/сверху.png" alt="background image" >
-      <header>
+      <img class="bg-800 w-100" src="src/img/сверху.png" alt="background image" >
+      <header class="z-index-1">
         <div class="container text-center col-12 col-md-8">
           <div class="row pt-4">
             <div class="row col col-xl-4">
@@ -34,7 +34,7 @@
               </div>
             </div>
             <div class="col-sm col-xl-4 align-self-start">
-              <img class="col-6 col-lg-5 m-3" src="src/img/Слой 20.png" alt="">
+              <img class="col-6 col-lg-5 m-3" src="src/img/Слой20.png" alt="">
             </div>
             <div class="row col col-xl-4">
               <div class="col text-center align-self-center">
@@ -116,11 +116,11 @@
     </div>
     <br>
     <div class="mt-5 position-relative">
-      <img class="position-absolute h-100 bg w-100"  src="src/img/Фигура 216.png">
-        <div class="mt-5 text-center">
+      <img class="position-absolute h-100 w-100 bg"  src="src/img/Фигура216.png" title="bg">
+        <div class="mt-5 text-center z-index-1">
           <br>
           <br>
-          <div class="h4">СКОЛЬКО БУДЕТ СТОИТЬ БАССЕЙН?</div>
+          <div class="h4 z-index-2">СКОЛЬКО БУДЕТ СТОИТЬ БАССЕЙН?</div>
           <img src="src/img/подчеркивание.png" alt="">
           <div>Ответьте на несколько вопросов и наши специалисты отправят вам смету в течении <b>1 дня</b></div>
         </div>
@@ -134,7 +134,7 @@
               <form class="form ml-4">
                 <div class="form-group row">
                   <label class="col-sm-4" for="exampleFormCOntrolSelect1">Отделка чаши: </label>
-                  <select class="form-control col-sm-8" id="exampleFormControlSelect1">
+                  <select class="form-control col-sm-8" id="exampleFormControlSelect1" title="exampleFormControlSelect1">
                     <option>Полипропилен</option>
                     <option>Плитка</option>
                     <option>Железо</option>
@@ -142,14 +142,14 @@
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-4" for="exampleFormCOntrolSelect2">Нагрев воды: </label>
-                  <select class="form-control col-sm-8" id="exampleFormControlSelect2">
+                  <select class="form-control col-sm-8" id="exampleFormControlSelect2" title="exampleFormControlSelect2">
                     <option>Нет</option>
                     <option>Да</option>
                   </select>
                 </div>
                 <div class="form-range rounded-circle row">
                   <label class="col-sm-4" for="form-control-range">Размер Бассейна</label>
-                  <input class="form-control-range col-sm-6" type="range" min="0" max="5" value="" id="form-range" step="1">
+                  <input class="form-control-range col-sm-6" title="form-control" type="range" min="0" max="5" value="" id="form-range" step="1">
                   <span class="col-sm-2" id="output"></span>
                 </div>
                 <button class="btn btn-primary col text-center" type="submit">Оставить заявку</button>
@@ -157,7 +157,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <img class="w-100" src="src/img/картинка слитая.png" alt="">
+            <img class="w-100" src="src/img/картинкаслитая.png" alt="">
           </div>
         </div>
       </div>
@@ -227,32 +227,34 @@
     </div>
     <br>
     <div class="position-relative">
-      <img class="position-absolute h-100 bg w-100" src="src/img/Фигура 272.png" alt="">
-      <div class="container position-absolute bg-2 col-12">
+      <img class="position-absolute h-100 w-100" src="src/img/Фигура272.png" alt="">
+      <div class="container position-absolute z-index-0 col-12">
         <img class="col-4 col-sm-3 float-right" src="src/img/листья.png" alt="">
       </div>
       <br>
       <br>
-      <div class="h4 text-center text-white">Что вы получаете?</div>
-      <div class="text-center">
-        <img src="src/img/волнистая.png" alt="">
-      </div>
-      <br>
-      <div class="container col-12 col-sm-8 mb-5">
-        <div class="row text-white">
-          <div class="d-flex flex-column col-2 col-sm-2">
-            <img class="w-100" src="src/img/research.png" alt="">
-            <div class="">Индивидуальное предложение</div>
-          </div>
-          <div class="col-2 col-sm-3 "></div>
-          <div class="d-flex flex-column col-2 col-sm-2">
-            <img class="w-100" src="src/img/time-management (3).png" alt="">
-            <div class="text-md">Комплексная поддержка</div>
-          </div>
-          <div class="col-2 col-sm-3"></div>
-          <div class="d-flex flex-column col-2 col-sm-2">
-            <img class="w-100" src="src/img/hand.png" alt="">
-            <div>Качественные материалы</div>
+      <div class="z-index-1">
+        <div class="h4 text-center text-white">Что вы получаете?</div>
+        <div class="text-center">
+          <img src="src/img/волнистая.png" alt="">
+        </div>
+        <br>
+        <div class="container col-12 col-sm-8 mb-5">
+          <div class="row text-white">
+            <div class="d-flex flex-column col-2 col-sm-2">
+              <img class="w-100" src="src/img/research.png" alt="">
+              <div class="">Индивидуальное предложение</div>
+            </div>
+            <div class="col-2 col-sm-3 "></div>
+            <div class="d-flex flex-column col-2 col-sm-2">
+              <img class="w-100" src="src/img/time-management (3).png" alt="">
+              <div class="text-md">Комплексная поддержка</div>
+            </div>
+            <div class="col-2 col-sm-3"></div>
+            <div class="d-flex flex-column col-2 col-sm-2">
+              <img class="w-100" src="src/img/hand.png" alt="">
+              <div>Качественные материалы</div>
+            </div>
           </div>
         </div>
         <br>
@@ -270,7 +272,7 @@
               <br>
               <input class="form-control" type="text" placeholder="Телефон">
               <br>
-              <button class="btn btn-success ">Отправить</button>
+              <button type="button" class="btn btn-success ">Отправить</button>
             </form>
           </div>
         </div>
@@ -278,13 +280,18 @@
       <br>
     </div>
     <div class="position-relative">
-      <img class="bg position-absolute w-100 h-100 " src="src/img/точка на карте.png" alt="">
+      <img class="bg-2 position-absolute w-100 h-100 " src="src/img/точка на карте.png" alt="">
       <br>
-      <div class="bg container row h-100">
+      <div class="container row h-100">
         <div class="col-1"></div>
-        <div class="col-10 col-sm-5 bg-white rounded">
+        <div class="col-10 col-sm-5 position-relative">
+          <img class="position-absolute bg h-100 w-100" src="src/img/подложка.png" alt="">
           <br>
-          <div class="h5 font-weight-bold">Контакты</div>
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="h5 font-weight-bold col-10">Контакты</div>
+            <div class="col-1"></div>
+          </div>
           <br>
           <div class="row">
             <div class="col-1"></div>
